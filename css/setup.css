@@ -1,0 +1,102 @@
+@charset "utf-8";
+.container {
+    width: 1200px;
+}
+
+.setup {
+    margin-top: 30px;
+}
+
+.userInfo {
+    width: 952px;
+    min-height: 1070px;
+}
+
+.crumb {
+    background-color: #fff;
+    margin-left: -10px;
+}
+
+.tab {
+    margin-top: 12px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 25px;
+}
+
+.tab span {
+    float: left;
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.tab .active {
+    background-color: #74c5b2;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.userInfo .pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.tabPage form li {
+    overflow: hidden;
+}
+
+.tabPage form li>div:first-child {
+    margin-right: 130px;
+}
+
+.tabPage .frist {
+    width: 260px;
+}
+
+.tabPage .txt {
+    width: 110px;
+    font: 14px/60px "Microsoft YaHei";
+    text-indent: 15px;
+}
+
+.tabPage form li .txt2 {
+    color: #80c4ad;
+}
+
+.tabPage form div {
+    font: 14px/60px "Microsoft YaHei";
+}
+
+.tabPage .big {
+    line-height: 80px;
+}
+
+.tabPage form input[type=text],
+.tabPage form input[type=date] {
+    width: 258px;
+    height: 38px;
+    border: 1px solid #80c4ad;
+    border-radius: 3px;
+    text-indent: 20px;
+}
+
+.tabPage form input[type=submit] {
+    width: 55px;
+    height: 30px;
+    border: none;
+    background-color: #80c4ad;
+    border-radius: 3px;
+    color: #fff;
+    margin: 30px 0 0 30px;
+}
+
+.tabPage form select {
+    width: 258px;
+    height: 38px;
+    border: 1px solid #80c4ad;
+    border-radius: 3px;
+    text-indent: 20px;
+}

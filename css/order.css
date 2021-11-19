@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* 订单模块 */
+
+.order {
+    margin-top: 30px;
+}
+
+.orderBar {
+    width: 952px;
+    min-height: 725px;
+}
+
+.container {
+    width: 1200px;
+}
+
+.orderBar .crumb {
+    background-color: #fff;
+}
+
+.order table {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.orderBar thead tr {
+    font: 14px/40px "Microsoft YaHei";
+    color: #fff;
+    background-color: #80c4af;
+}
+
+.orderBar thead tr th {
+    text-align: center;
+    padding: 0 34px;
+}
+
+.orderBar tbody tr td {
+    text-align: center;
+}
+
+.orderBar thead tr th:first-child,
+.orderBar tr .infoBox {
+    width: 370px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+}
+
+.orderBar tbody tr {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.orderBar tr .infoBox h3 {
+    font: 16px/42px "Microsoft YaHei";
+    font-weight: 700;
+}
+
+.orderBar tr .info .img {
+    width: 36px;
+    height: 36px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.orderBar tr .info p {
+    font: 14px/36px "Microsoft YaHei";
+}
+
+.orderBar tr .info span {
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #80c4af;
+    margin: 0 10px;
+}
+
+.orderBar tr>td>p {
+    font: 14px/60px "Microsoft YaHei";
+    color: #666666;
+}
+
+.notPaid a {
+    color: #80c4af;
+    text-decoration: underline;
+}
+
+.notPaid span {
+    margin-left: 5px;
+    color: #ff716d;
+}
+
+.Paid a {
+    color: #80c4af;
+}

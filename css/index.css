@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* banner样式 */
+
+.banner {
+    position: relative;
+    margin-top: 36px;
+    width: 1180px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.banner .banner-list {
+    position: absolute;
+}
+
+.banner .banner-list li {
+    float: left;
+}
+
+.banner .point-list {
+    position: absolute;
+    left: 50%;
+    bottom: 27px;
+    transform: translateX(-50%);
+}
+
+.banner .point-list li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 7px;
+}
+
+.banner .point-list .active {
+    background-color: #FE7B5A;
+}
+
+.banner .prev {
+    position: absolute;
+    top: 135px;
+    left: 37px;
+    cursor: pointer;
+}
+
+.banner .next {
+    position: absolute;
+    top: 135px;
+    right: 31px;
+    cursor: pointer;
+}
+
+.inlineText ul li {
+    width: 379px;
+}
+
+.inlineText .title h2 {
+    margin: 47px 0 23px 0;
+}
+
+.eliCourse .title h2 {
+    margin: 62px 0 23px 0;
+}
+
+.eliCourse .marginRI {
+    margin-right: 18px;
+}
+
+.eliCourse ul {
+    width: 877px;
+}
+
+.bottomNav div {
+    float: left;
+}
+
+.bottomNav {
+    margin: 20px 0 96px 0;
+}

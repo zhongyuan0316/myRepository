@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+/* 菜单栏 */
+
+body {
+    background-color: #fafafa;
+}
+
+
+/* 课程详情  课程头部信息*/
+
+.courseHead .pic {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.courseHead .content {
+    margin-left: 40px;
+}
+
+.courseHead .txt {
+    margin-top: 53px;
+}
+
+.courseHead .txt h3 {
+    font: 22px/62px "Microsoft YaHei";
+    color: #3E3E3E;
+    margin-left: -10px;
+}
+
+.courseHead .txt p {
+    font: 14px/30px "Microsoft YaHei";
+    color: #3E3E3E;
+}
+
+.courseHead .countdown p span {
+    font: 16px/30px "Microsoft YaHei";
+    color: #FF6666;
+}
+
+.courseHead .countdown {
+    margin-top: 30px;
+}
+
+.courseHead .price {
+    margin-top: 78px;
+}
+
+.courseHead .price p {
+    font: 36px/52px "Microsoft YaHei";
+    color: #74C6B3;
+    margin-bottom: 10px;
+}
+
+.courseHead .price a {
+    float: right;
+    width: 130px;
+    height: 48px;
+    border: 2px solid #74C6B3;
+    border-radius: 4px;
+    font: 16px/48px "Microsoft YaHei";
+    color: #74C6B3;
+    text-align: center;
+}
+
+.courseHead .price span {
+    float: left;
+    font: 16px/48px "Microsoft YaHei";
+    color: #fff;
+}
+
+.courseHead .price p:last-child {
+    background-color: #74C6B3;
+    border-radius: 4px;
+}
+
+.price p:last-child a {
+    font: 16px/48px "Microsoft YaHei";
+    color: #fff;
+}
+
+
+/* 授课师资 */
+
+.instructor {
+    margin: 20px 0;
+    padding-left: 20px;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.instructor h3 {
+    font: 20px/60px "Microsoft YaHei";
+    color: #333;
+    margin-top: 5px;
+}
+
+.businessCard {
+    margin: 5px 0 25px 0;
+}
+
+.businessCard .pic {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    margin: 5px 0 0 8px;
+}
+
+.businessCard .txt {
+    margin-left: 20px;
+}
+
+.businessCard .txt p {
+    font: 18px/34px "Microsoft YaHei";
+    color: #333;
+}
+
+.businessCard .txt p:last-child {
+    font: 16px/34px "Microsoft YaHei";
+}
+
+.instructor .info>span {
+    width: 1px;
+    height: 50px;
+    background-color: #80c4ae;
+    margin: 10px 0 0 30px;
+}
+
+.instructor .experience {
+    width: 848px;
+    padding-left: 35px;
+}
+
+.instructor .experience p {
+    font: 16px/25px "Microsoft YaHei";
+    color: #333;
+}
+
+
+/* 课程主体 */
+
+.courseMain {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.courseNav {
+    position: relative;
+    height: 66px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.courseNav .navList {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.courseNav .navList li {
+    float: left;
+    width: 80px;
+    height: 66px;
+    font: 14px/66px "Microsoft YaHei";
+    color: #000000;
+    text-align: center;
+    margin: 0 17px;
+    vertical-align: top;
+}
+
+.courseNav .navList .active {
+    color: #fff;
+    background-color: #80C4AE;
+}
+
+.chapter {
+    display: block;
+    padding: 0 30px 0 40px;
+}
+
+.chapter .title {
+    margin: 30px 0 20px 0;
+}
+
+.chapter .title h3 {
+    font: 16px/24px "Microsoft YaHei";
+    color: #333;
+}
+
+.chapter .title span {
+    margin-top: 9px;
+}
+
+.videoList li {
+    height: 24px;
+    font: 14px/24px "Microsoft YaHei";
+    color: #333333;
+    margin-top: 18px;
+}
+
+.videoList img {
+    margin-right: 18px;
+}
+
+.allVideo {
+    width: 177px;
+    margin: 46px auto 84px;
+}
+
+.allVideo a {
+    font: 22px/24px "Microsoft YaHei";
+    color: #74C6B3;
+    text-decoration: underline;
+}

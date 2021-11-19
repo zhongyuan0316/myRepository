@@ -1,0 +1,126 @@
+﻿@charset "utf-8";
+
+/*样式重置 reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+ul,
+ol,
+input {
+    margin: 0;
+    /*去掉自带外间距*/
+    padding: 0;
+    /*去掉自带内填充*/
+}
+
+em,
+i {
+    font-style: normal;
+    /*斜体扶正*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+b,
+strong {
+    font-weight: normal;
+    /*去掉标题自带加粗*/
+}
+
+li {
+    list-style: none;
+    /*去掉默认列表符*/
+}
+
+a {
+    outline: none;
+    /*去掉描边*/
+    text-decoration: none;
+    /*去掉自带下划线*/
+    color: #333;
+    /*根据设计稿定义*/
+}
+
+img {
+    border: none;
+    /*去掉ie浏览器中图片加超链接时外面的边框*/
+    vertical-align: top;
+    /*图片对齐方式*/
+}
+
+table {
+    border-collapse: collapse;
+    /*相邻边框折叠*/
+}
+
+input,
+select {
+    outline: none;
+    /* 清除轮廓线——获取焦点状态时的外部轮廓 */
+    border: none;
+    background-color: transparent;
+    /*背景色透明*/
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    /*禁止调整文本域尺寸*/
+    overflow: auto;
+    /*在浏览器默认状态下没有滚动条*/
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, "微软雅黑", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+/*public style*/
+
+.clearfix {
+    zoom: 1;
+    /*IE浏览器清浮动*/
+}
+
+.clearfix:after {
+    content: '';
+    /*添加一个空内容*/
+    display: block;
+    /*转块*/
+    clear: both;
+    /*清浮动*/
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}

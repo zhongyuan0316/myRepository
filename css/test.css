@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* 答题板 */
+
+.answerBar {
+    width: 240px;
+    padding: 35px 25px 48px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.answerBar h2 {
+    font: 20px/30px "Microsoft YaHei";
+    margin-bottom: 30px;
+}
+
+.answerBar li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #ededed;
+    border-radius: 3px;
+    font: 14px/40px "Microsoft YaHei";
+    text-align: center;
+}
+
+.answerBar li {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.answerBar .marginLe0 {
+    margin-left: 0px;
+}
+
+.answerBar .active {
+    color: #fff;
+    background-color: #80c4ae;
+}
+
+.answerBar p {
+    margin-top: 80px;
+    font: 18px/67px "Microsoft YaHei";
+}
+
+.answerBar p span {
+    color: #ec8282;
+}
+
+.answerBar button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #74c6b3;
+    border-radius: 4px;
+    font: 18px/48px "Microsoft YaHei";
+    color: #fff;
+}
+
+.frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, .3);
+    overflow: hidden;
+    display: none;
+}
+
+.frame .msg {
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    width: 580px;
+    height: 380px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.frame .msg .layer1 {
+    position: relative;
+    height: 110px;
+    padding-top: 30px;
+    background-color: #74c6b3;
+    font: 20px/2 "Microsoft YaHei";
+    color: #ffec94;
+    text-align: center;
+    text-indent: 30px;
+}
+
+.frame .msg .layer1::before {
+    content: url(../images/bell.png);
+    position: absolute;
+    top: 35px;
+    left: 200px;
+}
+
+.frame .msg .layer2 {
+    width: 0;
+    height: 0;
+    border-width: 100px 290px 0 290px;
+    border-color: transparent;
+    border-style: solid;
+    border-top-color: #74c6b3;
+}
+
+.msg .content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400px;
+    height: 128px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.msg .content p {
+    font: 18px/42px "Microsoft YaHei";
+    color: #a7a7a7;
+}
+
+.msg .content p span {
+    color: #333;
+}
+
+.msg button {
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    border: none;
+    border-radius: 3px;
+    font: 18px/48px "Microsoft YaHei";
+    color: #fff;
+    left: 73px;
+    bottom: 25px;
+}
+
+.msg button:nth-of-type(2) {
+    left: 328px;
+    background-color: #74c6b3;
+}
